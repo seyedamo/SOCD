@@ -28,6 +28,9 @@ ORDER BY
 DS.ACTUALSPACE_MB DESC
 ;
 
+-- Calendar
+sys_calendar.calendar
+
 -- CHECK INDICES
 SELECT IND.*
   FROM DBC.INDICES IND
